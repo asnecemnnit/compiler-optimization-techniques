@@ -21,6 +21,7 @@ The exercises cover the following optimization techniques:
 - [Vectorization](src/vectorization.cpp)
 - [Loop Tiling](src/loop_tiling.cpp)
 - [Caching](src/caching.cpp)
+- [Loop Fusion](src/loop_fusion.cpp)
 
 
 ## Getting Started
