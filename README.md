@@ -16,11 +16,11 @@ Compiler optimizations play a crucial role in enhancing the performance of C++ c
 
 The exercises cover the following optimization techniques:
 
-- [Loop Unrolling](src/loop_unrolling.c)
-- [Inlining](src/inlining.c)
-- [Vectorization](src/vectorization.c/)
-- [Loop Tiling](src/loop_tiling.c)
-- [Caching](src/caching.c)
+- [Loop Unrolling](src/loop_unrolling.cpp)
+- [Inlining](src/inlining.cpp)
+- [Vectorization](src/vectorization.cpp)
+- [Loop Tiling](src/loop_tiling.cpp)
+- [Caching](src/caching.cpp)
 
 
 ## Getting Started
