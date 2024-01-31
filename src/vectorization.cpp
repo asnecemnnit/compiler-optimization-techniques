@@ -1,7 +1,6 @@
 // vectorization.cpp
 
-#include <cassert>
-#include <iostream>
+#include "bits/stdc++.h"
 
 // Function to perform a multiply by 2 operation on an array
 void OP_mult_by_2(int arr[], int size) {
