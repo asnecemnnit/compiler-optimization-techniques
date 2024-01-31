@@ -16,13 +16,12 @@ Compiler optimizations play a crucial role in enhancing the performance of C++ c
 
 The exercises cover the following optimization techniques:
 
-- [Loop Unrolling](exercises/LoopUnrolling/)
-- [Inlining](exercises/Inlining/)
-- [Vectorization](exercises/Vectorization/)
-- [Loop Tiling](exercises/LoopTiling/)
-- [Caching](exercises/Caching/)
+- [Loop Unrolling](src/loop_unrolling.c)
+- [Inlining](src/inlining.c)
+- [Vectorization](src/vectorization.c/)
+- [Loop Tiling](src/loop_tiling.c)
+- [Caching](src/caching.c)
 
-Each technique has its own set of exercises with provided initial code (`main.cpp`), a solution (`solution.cpp`), and test cases (`test/`). Explore the directories within the `exercises/` folder to get started.
 
 ## Getting Started
 
