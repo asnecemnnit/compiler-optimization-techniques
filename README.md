@@ -10,7 +10,7 @@ Welcome to the C++ Compiler Optimization Exercises repository! This project is d
 
 ## Introduction
 
-Compiler optimizations play a crucial role in enhancing the performance of C++ code. This repository aims to offer a hands-on learning experience with exercises covering a range of optimization techniques. Whether you are a beginner or an experienced developer, these exercises will help you sharpen your skills in writing optimized C++ code.
+Compiler optimizations play a crucial role in enhancing the performance of C++ code. This repository aims to offer a hands-on learning experience with exercises covering a range of optimization techniques.
 
 ## Optimization Techniques
 
@@ -32,10 +32,9 @@ To begin working on the exercises, follow these steps:
 
    ```bash
    git clone https://github.com/your-username/compiler-optimization-techniques.git
-2. Choose an optimization technique from the exercises/ directory.
 
-3. Open the exercise folder, read the instructions in main.cpp, and start optimizing the code.
+2. Choose an optimization technique from the src directory.
 
-4. Test your solution against the provided test cases in the test/ directory.
+3. Unoptimized and optimized functions can be tested by building and running the corresponding cpp file.
 
-5. Check the solution.cpp file for a reference optimized solution.
+4. Optionally, assembly (asm) files can be generated for each optimization technique, and the unoptimized and optimized assembly functions can be compared.
