@@ -13,6 +13,8 @@ void OP_mult_by_2(int arr[], int size) {
 // loop unrolling
 void OP_mult_by_2_unrolled(int arr[], int size) {
   int i;
+  // loop unrolling: reduced overhead, increased ILP (Instruction-Level
+  //                 Parallelism), and better register utilization
   for (i = 0; i < size - 1; i += 2) {
     arr[i] = arr[i] * 2;
     arr[i + 1] = arr[i + 1] * 2;

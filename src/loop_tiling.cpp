@@ -11,6 +11,11 @@ void OP_mult_by_2(int arr[], int size) {
 
 // Function to perform a multiply by 2 operation on an array with loop tiling
 void OP_mult_by_2_tiled(int arr[], int size, int tile_size) {
+  // loop tiling: dividing the iterations of the outermost loop into smaller
+  //              blocks, often referred to as tiles. The inner loops then
+  //              operate on these smaller tiles of data
+  //              better cache usage by ensuring that the data accessed by the
+  //              inner loops is localized and fits within the cache
   for (int i = 0; i < size; i += tile_size) {
     for (int j = i; j < std::min(i + tile_size, size); ++j) {
       arr[j] = arr[j] * 2;

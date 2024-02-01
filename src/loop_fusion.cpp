@@ -22,6 +22,8 @@ void OP_mult_by_2_separate(int arr1[], int arr2[], int size) {
 
 // Function to perform a multiply by 2 operation on two arrays using loop fusion
 void OP_mult_by_2_fused(int arr1[], int arr2[], int size) {
+  // reduced overhead and improved cache locality by eliminating redundant
+  // iterations
   for (int i = 0; i < size; ++i) {
     arr1[i] = arr1[i] * 2;
     arr2[i] = arr2[i] * 2;

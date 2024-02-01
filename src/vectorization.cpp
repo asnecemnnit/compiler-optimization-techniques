@@ -13,6 +13,12 @@ void OP_mult_by_2(int arr[], int size) {
 // vectorization
 void OP_mult_by_2_vectorized(int arr[], int size) {
 #pragma clang loop vectorize(enable) interleave(enable)
+  // vectorize: compiler transforms a loop to use SIMD (Single Instruction,
+  //            Multiple Data) instructions, allowing multiple operations to be
+  //            performed in parallel on a vector of data
+  // interleave: executing instructions from multiple iterations simultaneously
+  //             or overlapping them, compiler interleaves multiple iterations
+  //             of a loop to increase instruction-level parallelism
   for (int i = 0; i < size; ++i) {
     arr[i] = arr[i] * 2;
   }
